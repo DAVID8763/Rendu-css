@@ -1,0 +1,28 @@
+
+
+header{
+    background-image:url("IMG/image-header.png");
+    width:auto;
+    height:700px;
+    background-size:cover;
+
+    h1{
+        color: white;
+        text-align: center;
+    }
+    h2{
+        color: white;
+        text-align: centers
+    }
+}
+nav{
+    text-align: center;
+}
+    
+header nav ul li{
+    display:inline; right;
+    color: white;
+}
+
+
+
