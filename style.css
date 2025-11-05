@@ -1,28 +1,114 @@
+* {
+    margin: 0;
+}
 
+a {
+    text-decoration: none;
+}
 
-header{
-    background-image:url("IMG/image-header.png");
-    width:auto;
-    height:700px;
-    background-size:cover;
+body {
+    background-color: black;
+    font-family: "DM Sans", sans-serif;
 
-    h1{
+}
+
+header {
+    background-image: url("IMG/image-header.png");
+    width: auto;
+    height: 700px;
+    background-size: cover;
+
+    h1 {
         color: white;
-        text-align: center;
+
     }
-    h2{
+
+    h1 #rap_fest {
+        font-size: 100px;
+    }
+
+    h1 #URBAN_NIGHT {
+        bottom: 50px;
+    }
+
+    h2 {
         color: white;
-        text-align: centers
+
+        font-size: 20px;
     }
 }
-nav{
-    text-align: center;
+
+nav {
+    padding: 20px;
+
+    img {
+        padding-right: 300px;
+    }
+
+    ul {
+        float: right;
+
+        li a {
+            color: white;
+            text-decoration: none;
+        }
+
+    }
+
+
 }
-    
-header nav ul li{
-    display:inline; right;
+
+header nav ul li {
     color: white;
+    display: inline;
+
 }
 
+.containerhero {
+    width: 380px;
+    margin: auto;
+}
+
+#presentation {
+    .container {
+        h2 {
+            text-align: center;
+            color: white;
+            background-color: black;
+        }
+
+        p {
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+    }
+}
+
+.sectionPadding {
+    padding-block: 120px;
+}
+
+.bouton {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
 
 
+}
+.secondary{
+     background-color: white;
+    color: black;
+    
+}
+
+.imgbar{
+    display: inline;
+    width: 380px;
+    margin: auto;
+
+}
+/* .container{
+    max-width: 800px;
+} */
